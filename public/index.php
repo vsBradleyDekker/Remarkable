@@ -1,12 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
-	</head>
-	<body>
-        <p>
-          <?php
-            echo "Dave"; 
-          ?>
-        </p>
-	</body>
-</html>
+<?php include('../inc/header.php') ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php include('../inc/footer.php') ?>

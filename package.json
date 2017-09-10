@@ -29,6 +29,7 @@
     "promise-polyfill": "^6.0.2",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
-    "ti-icons": "^0.1.2"
+    "ti-icons": "^0.1.2",
+    "webpack": "^2.7.0"
   }
 }
