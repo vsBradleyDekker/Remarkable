@@ -1,0 +1,18 @@
+.banner{
+    background: url('/img/sofa-neverland.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    h2{
+        font-weight: 500;
+    }
+    .button{
+        background: $primary-color;
+        color: $white;
+        &:hover{
+            background: $white;
+            color: $primary-color;
+        }
+    }
+}

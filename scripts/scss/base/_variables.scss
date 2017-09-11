@@ -1,0 +1,22 @@
+/*colors pallet*/
+$white: #ffffff;
+$black: #000000;
+$dark-gray: #2f2c27;
+$primary-color: #e55e25;
+
+$global-font-size: 100%;
+
+$body-background: $white;
+$body-font-family: 'Titillium Web', sans-serif;
+
+/*button styles*/
+
+$button-font-family: inherit;
+$button-padding: 0.85em 1em;
+$button-margin: 0 0 $global-margin 0;
+$button-fill: solid;
+$button-background: $primary-color;
+$button-background: $primary-color;
+$button-color: $white;
+$button-color-alt: $black;
+

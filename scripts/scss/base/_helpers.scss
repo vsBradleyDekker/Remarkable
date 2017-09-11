@@ -1,0 +1,38 @@
+.pad-tb-small {
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+}
+
+.pad-tb-medium {
+    padding-top: 2em;
+    padding-bottom: 2em; 
+}
+
+.pad-tb-large {
+    padding-top: 4em; 
+    padding-bottom: 4em; 
+}
+.line-height-100{
+    line-height: 100px;
+}
+.button{
+    background: $white;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    border-radius: .2em;
+    &:hover{
+        background: $primary-color;
+        color: $white;
+    }
+}
+.card{ 
+    &:hover{
+        /*property duration timing-function delay*/
+        -webkit-box-shadow: 10px 10px 36px 0px rgba(136,136,136,1);
+        -moz-box-shadow: 10px 10px 36px 0px rgba(136,136,136,1);
+        box-shadow: 10px 10px 36px 0px rgba(136,136,136,1);
+        transition-timing-function:  ease;
+        transition-delay: 0.5;
+        
+    }
+}

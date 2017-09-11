@@ -1,0 +1,10 @@
+.home-info-section{
+    background: $primary-color;
+    color: $white;
+
+    .home-info-section__callout-phone {
+        font-size: 4em;
+        font-weight: 600;
+        display: block;
+    }
+}

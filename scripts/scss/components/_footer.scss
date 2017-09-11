@@ -1,9 +1,14 @@
 footer{
-    text-align: center;
-    img{
-        margin-top: 150px;
-        margin-bottom: 60px;
-        opacity: 0.7;
-    }
+    background: $dark-gray;
 
+    span{
+        color: $white;
+    }
+    ul{
+        padding: 0;
+        margin-left: 0;
+        li a{
+            color: $white;
+        }
+    }
 }
