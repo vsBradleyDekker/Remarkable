@@ -1,5 +1,24 @@
-.home-about-section{
+.home-about{
     background: $dark-gray;
     color: $white;
-    border-top: 3px solid red;
+    border-top: 3px solid $gradient-red;
+    .home-about__header{
+        padding-top: 2em;
+    }
+    .home-about__button.button{
+        background: linear-gradient(to right, $gradient-red, $gradient-orange);
+        color: $white;
+        border: none;
+        &:hover{
+            box-shadow: $black 0px 0px 1px;
+            opacity: 0.9;
+        }
+        &:focus{
+            background: linear-gradient(to right, $gradient-red, $gradient-orange);
+            color: $white;
+        }
+        .fa{
+            color: $white;
+        }
+    }
 }

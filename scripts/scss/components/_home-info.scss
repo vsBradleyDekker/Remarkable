@@ -1,0 +1,12 @@
+.home-info{
+    background: linear-gradient(to right, $gradient-red, $gradient-orange);
+color: $white;
+   .home-info__title{
+      font-size: 3em;
+   }
+    .home-info__callout-phone {
+        font-size: 4em;
+        font-weight: 600;
+        display: block;
+    }
+}

@@ -1,14 +1,92 @@
-footer{
+.footer__top{
     background: $dark-gray;
-
-    span{
-        color: $white;
+    
+  
+    
+    .footer__cat-items{
+        
+            .footer__cat-title{
+                color: $white;
+                font-weight: 600;
+            }
+        ul{
+            padding: 0;
+            margin-left: 0;
+            li{
+             &:first-child{
+                 padding-top: 1em;
+             }
+            }
+            li a{
+                color: $white;
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
     }
-    ul{
-        padding: 0;
-        margin-left: 0;
-        li a{
+    .footer__middle{
+        .footer__middle__title{
             color: $white;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        .footer__middle__quicklinks__title{
+            color: $white;
+            font-weight: 600;
+            text-align: center;
+            display: block;
+            padding-bottom: 1em;
+        }
+        .footer__middle_menu{
+            margin-left: 0;
+            li{
+                a{
+                  color: $white;  
+                }
+            }
+        }
+        .footer__middle_contact{
+            
+            .footer__middle_contact__title{
+                color: $white;
+                font-weight: 600;
+                display: block;
+                padding-bottom: 1em;
+            }
+            p{
+                color: $white;
+                margin-bottom: 0;
+            }
+            a{
+                color: #ab2033;
+            }
+        }
+       
+    }
+   .footer-bottom{
+
+        .footer-bottom__copyright{
+            color: $white;
+        }
+
+        .footer-bottom__icons{
+            
+            .fa-instagram{
+                border: 3px solid white;
+                border-radius: 50%;
+                padding: 9px 11px;
+                font-size: 1.5em;
+                color: $white;
+            }
+            
+            .fa-facebook{
+                border: 3px solid white;
+                border-radius: 50%;
+                padding: 8px 14px;
+                font-size: 1.5em;
+                color: $white;
+                margin-right: 10px;
+            }
         }
     }
 }

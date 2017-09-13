@@ -1,11 +1,47 @@
 .news-letter{
     background: $dark-gray;
     color: $white;
+    
+    .news-letter__title{
 
-    .fa{
-        color: $primary-color;
+        .fa{
+            color: $primary-color;
+        }
+        span{
+            font-weight: 300;
+        
+        }
     }
-    span{
-        font-weight: 300;
+    .news-letter__subtitle{
+        
+        p{
+            font-weight: 300;
+            font-size: 14px;
+        }
     }
+   .news-letter__form{
+
+        .button{
+            background: linear-gradient(to right, $gradient-red, $gradient-orange);
+            color: $white;
+            border: none;
+            width: 100%;
+            &:hover{
+                opacity: 0.9;
+            }
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $black;
+          }
+          ::-moz-placeholder { /* Firefox 19+ */
+            color: $black;
+          }
+          :-ms-input-placeholder { /* IE 10+ */
+            color: $black;
+          }
+          :-moz-placeholder { /* Firefox 18- */
+            color: $black;
+          }
+   }
+
 }

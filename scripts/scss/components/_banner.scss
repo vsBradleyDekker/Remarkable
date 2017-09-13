@@ -1,18 +1,42 @@
+
 .banner{
-    background: url('/img/sofa-neverland.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    h2{
-        font-weight: 500;
+
+    .banner__title{
+        font-weight: 300;  
     }
-    .button{
-        background: $primary-color;
+
+    .banner__sub-title{
+    
+        font-size: 14px;
+        font-weight: 600;
+     
+        color: #b8b8b8;
+    }
+
+    .banner__button.button{
+        border: none;
+        background: linear-gradient(to right, #da4d46, #f6704d);
         color: $white;
+        font-weight: 600;
+
         &:hover{
-            background: $white;
-            color: $primary-color;
+            opacity: 0.9; 
         }
+        &:focus{
+            background: linear-gradient(to right, #da4d46, #f6704d);
+            color: $white;
+        }
+        .fa{
+            padding: 5px;
+            color:$white;
+           
+        }
+    }
+    .banner__background{
+        max-width: 100%;
+        background: url('/img/sofa-neverland.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
 }

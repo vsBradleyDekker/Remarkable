@@ -9,28 +9,24 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css?ver=<?php echo rand();?>">
     </head>
     <body>
         <header>
-            <div class="header__top-menu pad-tb-small">
+            <div class="header__top-menu">
                 <div class="row">
-                    <div class="columns small-12 medium-3">
+                    <div class="columns small-12 medium-6 header__top-menu__left-icons">
                         <ul class="vertical medium-horizontal menu text-center">
                             <li><a href="#0"><i class="fi-list"></i> <i class="fa fa-map-marker" aria-hidden="true"></i><span> Visit Showroom</span></a></li>
                             <li><a href="#0"><i class="fi-list"></i> <i class="fa fa-shopping-cart" aria-hidden="true"></i><span> View Cart</span></a></li>
                         </ul>
                     </div>
-                    <div class="columns small-12 medium-4">
-                        <ul class="vertical medium-horizontal menu text-center float-right">
-                            <li><a href="#0"><i class="fi-list"></i><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#0"><i class="fi-list"></i><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="columns small-12 medium-5">
-                        <nav>
+                    <div class="columns small-12 medium-6">
+                        <nav class="float-right">
                             <ul class="vertical medium-horizontal menu text-center">
+                                <li><a href="#0"><i class="fi-list"></i><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#0"><i class="fi-list"></i><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href="#0"><i class="fi-list"></i> <span>Support</span></a></li>
                                 <li><a href="#0"><i class="fi-list"></i> <span>Delivery</span></a></li>
                                 <li><a href="#0"><i class="fi-list"></i> <span>About Us</span></a></li>
@@ -42,13 +38,13 @@
             </div>
             <div class="header__mast pad-tb-medium">
                 <div class="row">
-                    <div class="columns small-12 medium-4 header">
+                    <div class="columns small-12 medium-4 header header__mast-number">
                     <i class="fa fa-phone" aria-hidden="true"></i><span> 1300 296 503</span>
                     </div>
-                    <div class="columns small-12  medium-4 header">
+                    <div class="columns small-12  medium-4 header header_mast-logo">
                         <img src="../img/remarkable.jpg" alt="logo">
                     </div>
-                    <div class="columns small-12 medium-4 header">
+                    <div class="columns small-12 medium-4 header header__mast-searchbar">
                         <div class="top-bar-right float-right">
                             <ul class="menu">
                                 <li><input type="search" placeholder="Search Products..."></li>
