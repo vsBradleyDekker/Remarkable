@@ -3,22 +3,26 @@ header {
     .header__top-menu{
 
         background: $dark-gray;
-
-        @include breakpoint(small only) {
-            text-align: center;
+        text-align: center;
+        
+        @include breakpoint(medium up) {
+            text-align: left;
         }
 
         nav{
+            float: left !important;
 
-            @include breakpoint(small only) {
-                float: left !important;
+            @include breakpoint(medium up) {
+                float: right !important;
             }
         }
 
         li{
-            border-right: .5px solid grey;
-            @include breakpoint(small only) {
-                border: none;
+            border: none;
+           
+            @include breakpoint(medium up) {
+               
+                border-right: .5px solid grey;
             }
 
             &:first-child{
@@ -42,10 +46,11 @@ header {
         .header__top-menu__left-icons{
 
             li{
-                border-left: .5px solid grey;
 
-                @include breakpoint(small only) {
-                    border-left: 0;
+                border-left: 0;
+
+                @include breakpoint(medium up) {
+                    border-left: .5px solid grey;
                 }
             }
 
@@ -59,11 +64,8 @@ header {
         }
     }
     .header__mast{
-
-        @include breakpoint(small only) {
-            padding-top: 1em;
-            padding-bottom: 1em;
-        }
+        padding-top: 1em;
+        padding-bottom: 1em;
 
         .header__mast-number{
 
@@ -74,13 +76,16 @@ header {
 
         .header_mast-logo{
 
-            @include breakpoint(small only) {
-
-                img{
-                    padding-bottom: 1em;
-                    padding-top: 1em;
-               } 
-            }
+            img{
+                padding-bottom: 1em;
+                padding-top: 1em;
+                
+                @include breakpoint(medium up) {
+                    padding-bottom: 0;
+                    padding-top: 0;
+                }
+           } 
+            
         }
 
         .header__mast-searchbar{

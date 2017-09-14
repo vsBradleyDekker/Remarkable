@@ -3,7 +3,7 @@
     color: $white;
 
     .small-display-block{
-
+       
         @include breakpoint(small only){
             display: block;
         }
@@ -22,10 +22,7 @@
     }
 
     .news-letter__subtitle{
-
-        @include breakpoint(small only){
-            text-align: left;
-        }
+        text-align: left;
 
         p{
             font-weight: 300;
@@ -37,20 +34,24 @@
    .news-letter__form{
     
         input{
-        
-            @include breakpoint(small only){
-                padding-top: 1.5em;
-                padding-bottom: 1.5em;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+
+            @include breakpoint(medium up){
+                padding-top: 1em;
+                padding-bottom: 1em;
             }
         }
-        .button{
-            background: linear-gradient(to right, $gradient-red, $gradient-orange);
-            color: $white;
-            border: none;
-            width: 100%;
 
-            @include breakpoint(small only){
-                padding: 1.5em;
+        .button{
+            width: 100%;
+            background: linear-gradient(to right, $gradient-red, $gradient-orange);
+            border: none;
+            padding: 1.5em;
+            color: $white;
+           
+            @include breakpoint(medium up){
+                padding: 1em;
             }
 
             &:hover{

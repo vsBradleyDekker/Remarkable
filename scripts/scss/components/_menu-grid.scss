@@ -1,0 +1,14 @@
+.menu-grid{
+    
+    a{
+        width: 100%;
+    }
+
+    @include breakpoint(medium up){
+        
+        a {
+            width: 50%;
+        }
+    }
+  
+}

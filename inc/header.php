@@ -39,7 +39,7 @@
             <div class="header__mast pad-tb-medium">
                 <div class="row">
                     <div class="columns small-12 medium-4 header header__mast-number">
-                    <i class="fa fa-phone" aria-hidden="true"></i><span> 1300 296 503</span>
+                        <i class="fa fa-phone" aria-hidden="true"></i><span> 1300 296 503</span>
                     </div>
                     <div class="columns small-12  medium-4 header header_mast-logo">
                         <img src="../img/remarkable.jpg" alt="logo">

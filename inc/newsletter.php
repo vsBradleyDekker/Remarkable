@@ -7,7 +7,6 @@
         </div>
     </header>
     <article>
-       
         <div class="row ">
             <div class="columns small-12 medium-12 news-letter__form pad-tb-small">
                 <form>
@@ -33,7 +32,7 @@
                 <p>* By signing up you agree to our standard Terms of Service condition. We promise not to SPAM or share your personal information with anyone.</p>
             </div>
         </div>
-        <hr>
+        <hr class="hide-for-small-only">
     </footer>
 </section>
  

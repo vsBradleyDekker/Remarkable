@@ -1,38 +1,35 @@
 .footer__top{
     background: $dark-gray;
-
-    @include breakpoint(small only){
         
-        p{
-            text-align: center;
-        }
-    }
-    
     .footer__cat-items{
         
             .footer__cat-title{
-                color: $white;
+                display: block;
+                text-align: center;
                 font-weight: 600;
+                color: $white;
                 
-                @include breakpoint(small only) {
-                    text-align: center;
-                    display: block;
+                @include breakpoint(medium up) {
+                   text-align: left;
                 }
+
             }
             ul{
                 padding: 0;
                 margin-left: 0;
 
             li{
+                display: block;
+                text-align: center;
+               
 
-                @include breakpoint(small only) {
-                    text-align: center;
-                    display: block;
-                    padding: .5em;
+                @include breakpoint(medium up) {
+                   text-align: left;
+                   
                 }
                 
                 &:first-child{
-                 padding-top: 1em;
+                    padding-top: 1em;
                 }
             }
 
@@ -46,21 +43,19 @@
     .footer__middle{
 
         .footer__middle__title{
-            color: $white;
             padding-top: 1em;
             padding-bottom: 1em;
-           
-            @include breakpoint(small only){
-                text-align: left;
-            }
+            text-align: left;
+            color: $white;
+            
         }
 
         .footer__middle__quicklinks__title{
-            color: $white;
-            font-weight: 600;
-            text-align: center;
             display: block;
             padding-bottom: 1em;
+            text-align: center;
+            color: $white;
+            font-weight: 600;
         }
 
         .footer__middle_menu{
@@ -76,19 +71,25 @@
         .footer__middle_contact{
             
             .footer__middle_contact__title{
-                color: $white;
-                font-weight: 600;
                 display: block;
                 padding-bottom: 1em;
-               
-                @include breakpoint(small only){
-                    text-align: center;
+                text-align: center;
+                font-weight: 600;
+                color: $white;
+                
+                @include breakpoint(medium up){
+                    text-align: left;
                 }   
             }
 
             p{
-                color: $white;
                 margin-bottom: 0;
+                text-align: center;
+                color: $white;
+                
+                @include breakpoint(medium up){
+                    text-align: left;
+                }
                 
                 &:last-of-type{
                     padding-bottom: 1em;
@@ -121,9 +122,10 @@
                 border: 3px solid white;
                 border-radius: 50%;
                 padding: 8px 14px;
+                margin-right: 10px;
                 font-size: 1.5em;
                 color: $white;
-                margin-right: 10px;
+               
             }
         }
     }
