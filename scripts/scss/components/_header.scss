@@ -89,7 +89,14 @@ header {
         }
 
         .header__mast-searchbar{
-            
+
+            input{
+                
+                &:focus{
+                    box-shadow: 0;
+                    border: 0;
+                }
+            }
         }
     }
 

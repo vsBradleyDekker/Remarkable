@@ -36,6 +36,11 @@
         input{
             padding-top: 1.5em;
             padding-bottom: 1.5em;
+            
+            &:focus{
+                box-shadow: none;
+                border: 1px solid #8a8a8a;
+            }
 
             @include breakpoint(medium up){
                 padding-top: 1em;
