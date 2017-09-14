@@ -1,44 +1,75 @@
 .news-letter{
     background: $dark-gray;
     color: $white;
-    
+
+    .small-display-block{
+
+        @include breakpoint(small only){
+            display: block;
+        }
+    }
+
     .news-letter__title{
 
         .fa{
             color: $primary-color;
         }
+
         span{
             font-weight: 300;
         
         }
     }
+
     .news-letter__subtitle{
-        
+
+        @include breakpoint(small only){
+            text-align: left;
+        }
+
         p{
             font-weight: 300;
             font-size: 14px;
+            
         }
     }
-   .news-letter__form{
 
+   .news-letter__form{
+    
+        input{
+        
+            @include breakpoint(small only){
+                padding-top: 1.5em;
+                padding-bottom: 1.5em;
+            }
+        }
         .button{
             background: linear-gradient(to right, $gradient-red, $gradient-orange);
             color: $white;
             border: none;
             width: 100%;
+
+            @include breakpoint(small only){
+                padding: 1.5em;
+            }
+
             &:hover{
                 opacity: 0.9;
             }
         }
+
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: $black;
           }
+          
           ::-moz-placeholder { /* Firefox 19+ */
             color: $black;
           }
+
           :-ms-input-placeholder { /* IE 10+ */
             color: $black;
           }
+
           :-moz-placeholder { /* Firefox 18- */
             color: $black;
           }

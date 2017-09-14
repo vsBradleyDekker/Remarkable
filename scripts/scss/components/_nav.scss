@@ -1,16 +1,29 @@
 .header__main-nav{
+    
     .fa{
         color: $primary-color;
+        
+        @include breakpoint(small only){
+            font-size: 2em;
+        }
     }
+
     li{
         border: 0.5px solid #E1E1E1;
         font-size: 14px;
         font-weight: 600;
     }
+
     a{
         padding-top: 1em;
         padding-bottom: 1em;
         padding-left:0;
         padding-right: 0;
+
+        @include breakpoint(small only){
+            padding-top: 2em;
+            padding-bottom: 2em;
+
+        }
     }
 }

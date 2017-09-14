@@ -6,5 +6,5 @@
             <a href="about.html" class="banner__button button large"><i class="fa fa-search" aria-hidden="true"></i> BROWSE OUR RANGE</a>
         </div>
     </div>
-    <section class="banner__background"  style="height: 500px;"></section>
+    <section class="banner__background"></section>
 </section>

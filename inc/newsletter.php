@@ -7,10 +7,12 @@
         </div>
     </header>
     <article>
-        <div class="row">
+       
+        <div class="row ">
             <div class="columns small-12 medium-12 news-letter__form pad-tb-small">
                 <form>
-                    <div class="row">
+                     <!--Class on row to convert display for inputs-->
+                    <div class="row small-display-block">
                         <div class="large-5 columns end">
                             <input type="text" placeholder="First Name">
                         </div>

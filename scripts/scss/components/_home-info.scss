@@ -1,12 +1,54 @@
 .home-info{
     background: linear-gradient(to right, $gradient-red, $gradient-orange);
-color: $white;
+    color: $white;
+
+    @include breakpoint(small only){
+        padding-bottom: 0;
+    }
+
+    @include breakpoint(small only) {
+        
+        .fa{
+            position: relative;
+            top: 25px;
+            right: 275px;
+            font-size: 1em;
+        } 
+    }
+
    .home-info__title{
       font-size: 3em;
+       
+        @include breakpoint(small only) {
+            font-size: 1.5em;    
+        }
    }
+
+   .home-info__sub-title{
+       
+        @include breakpoint(small only) {
+            display: block;
+            text-align: center;
+        }
+   }
+
+    .home-info__details{
+        
+        @include breakpoint(small only) {
+            background: $dark-gray;
+        
+        }
+    }
+
     .home-info__callout-phone {
         font-size: 4em;
         font-weight: 600;
         display: block;
+
+        @include breakpoint(small only) {
+            font-size: 2em;  
+            text-align: center;  
+            padding-bottom: 1em;
+        }
     }
 }

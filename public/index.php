@@ -91,8 +91,8 @@
                   <h4 class="home-info__title">We Provide Australia-Wide</h4>
                   <span>Remarkable Furniture can deliver all of your outdoor furniture to any city or location within Autralia. Simply give us a call to get an estimate cost for your delivery service.</p>
               </div>
-              <div class="columns small-12 medium-6 text-right">
-                  <i class="fa fa-phone" aria-hidden="true"></i><span> Call us to get a delivery cost</span>
+              <div class="columns small-12 medium-6 text-right home-info__details">
+                  <i class="fa fa-phone" aria-hidden="true"></i><span class="home-info__sub-title"> Call us to get a delivery cost</span>
                   <span class="home-info__callout-phone">1300 296 505</span>
               </div>
             </div>

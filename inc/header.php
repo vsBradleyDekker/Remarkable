@@ -44,12 +44,8 @@
                     <div class="columns small-12  medium-4 header header_mast-logo">
                         <img src="../img/remarkable.jpg" alt="logo">
                     </div>
-                    <div class="columns small-12 medium-4 header header__mast-searchbar">
-                        <div class="top-bar-right float-right">
-                            <ul class="menu">
-                                <li><input type="search" placeholder="Search Products..."></li>
-                            </ul>
-                        </div>
+                    <div class="columns small-12 medium-4 large-4 header header__mast-searchbar">
+                        <input type="search" placeholder="Search Products...">
                     </div>
                 </div>
                 <div class="row">
