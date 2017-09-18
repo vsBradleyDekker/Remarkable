@@ -17,6 +17,9 @@
         border: none;
         color: $white;
         font-weight: 600;
+        padding-top: 1em;
+        padding-bottom: 1em;
+       
 
         @include breakpoint(medium up){
 
